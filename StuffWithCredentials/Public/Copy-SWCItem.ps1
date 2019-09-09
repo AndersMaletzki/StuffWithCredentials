@@ -14,7 +14,7 @@ function Copy-SWCItem {
     [CmdletBinding()]
     Param
     (
-        #Help
+        # Path to the file/folder you want to copy
         [Parameter(Mandatory = $true,
             Position = 0)]
         [ValidateNotNullOrEmpty()]
